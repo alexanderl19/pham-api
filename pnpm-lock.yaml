@@ -51,7 +51,7 @@ importers:
       '@typescript-eslint/eslint-plugin': ^5.60.0
       '@typescript-eslint/parser': ^5.60.0
       eslint: ^8.43.0
-      eslint-config-prettier: ^8.8.0
+      eslint-config-prettier: ^8.9.0
       eslint-plugin-svelte3: ^4.0.0
       groq: ^3.12.2
       prettier: ^2.8.8
@@ -73,7 +73,7 @@ importers:
       '@typescript-eslint/eslint-plugin': 5.60.0_6yzi2ymi2jevhjfd3hf6w262e4
       '@typescript-eslint/parser': 5.60.0_7yfldhli4vs6yywnkyiujhawka
       eslint: 8.43.0
-      eslint-config-prettier: 8.8.0_eslint@8.43.0
+      eslint-config-prettier: 8.9.0_eslint@8.43.0
       eslint-plugin-svelte3: 4.0.0_mzhyqvounqdbkexg3ou3ifz7d4
       prettier: 2.8.8
       prettier-plugin-svelte: 2.10.1_jlgs5vq3kify7hyf3gm4oz2klm
@@ -4031,8 +4031,8 @@ packages:
       source-map: 0.6.1
     dev: false
 
-  /eslint-config-prettier/8.8.0_eslint@8.43.0:
-    resolution: {integrity: sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==}
+  /eslint-config-prettier/8.9.0_eslint@8.43.0:
+    resolution: {integrity: sha512-+sbni7NfVXnOpnRadUA8S28AUlsZt9GjgFvABIRL9Hkn8KqNzOp+7Lw4QWtrwn20KzU3wqu1QoOj2m+7rKRqkA==}
     hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
@@ -4408,7 +4408,7 @@ packages:
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      tslib: 2.5.3
+      tslib: 2.6.1
     optionalDependencies:
       '@emotion/is-prop-valid': 0.8.8
     dev: false
