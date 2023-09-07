@@ -44,7 +44,7 @@ importers:
   apps/web:
     specifiers:
       '@radix-ui/colors': 0.1.9
-      '@sanity/client': ^6.4.9
+      '@sanity/client': ^6.4.11
       '@sanity/image-url': ^1.0.2
       '@sveltejs/adapter-vercel': ^3.0.1
       '@sveltejs/kit': ^1.20.5
@@ -63,7 +63,7 @@ importers:
       typescript: ^5.2.2
       vite: ^4.3.9
     dependencies:
-      '@sanity/client': 6.4.9
+      '@sanity/client': 6.4.11
       '@sanity/image-url': 1.0.2
       groq: 3.16.2
     devDependencies:
@@ -1958,6 +1958,17 @@ packages:
       - supports-color
     dev: false
 
+  /@sanity/client/6.4.11:
+    resolution: {integrity: sha512-A8s5odg9b8ioamKDdfrfsp5rHsE8J+BOpknw6eRtIHF5BBkNGAYdS78NdS1m3R+llHotdpyS/X2+la4YgzU5/w==}
+    engines: {node: '>=14.18'}
+    dependencies:
+      '@sanity/eventsource': 5.0.0
+      get-it: 8.4.3
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   /@sanity/client/6.4.9:
     resolution: {integrity: sha512-9y/exbu9kBgIuXouUWlHLGfPm3/jxRP8bSaysteILTQknLQZHExSyjFsYD/CxH3Xk43NzELqktvEXlP1/kZ6LA==}
     engines: {node: '>=14.18'}
@@ -2154,7 +2165,7 @@ packages:
   /@sanity/types/3.15.1:
     resolution: {integrity: sha512-B24SrVAJfCiF8q+JeTUtUqGjuX9YQj+ytdPcDNVbduIMeQeOmS6keumTvXZ7OS8OK0pgsffP5kUE00KWHgbPxg==}
     dependencies:
-      '@sanity/client': 6.4.9
+      '@sanity/client': 6.4.11
       '@types/react': 18.2.21
     transitivePeerDependencies:
       - supports-color
