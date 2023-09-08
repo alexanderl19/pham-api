@@ -5,11 +5,11 @@ importers:
   .:
     specifiers:
       eslint: ^8.43.0
-      prettier: ^2.5.1
+      prettier: ^3.0.3
       turbo: ^1.10.13
     devDependencies:
       eslint: 8.47.0
-      prettier: 2.8.8
+      prettier: 3.0.3
       turbo: 1.10.13
 
   apps/content:
@@ -19,7 +19,7 @@ importers:
       '@types/react': ^18.2.21
       '@types/styled-components': ^5.1.26
       eslint: ^8.43.0
-      prettier: ^2.8.8
+      prettier: ^3.0.3
       react: ^18.2.0
       react-dom: ^18.2.0
       react-is: ^18.2.0
@@ -38,7 +38,7 @@ importers:
       '@types/react': 18.2.21
       '@types/styled-components': 5.1.26
       eslint: 8.47.0
-      prettier: 2.8.8
+      prettier: 3.0.3
       typescript: 5.2.2
 
   apps/web:
@@ -54,7 +54,7 @@ importers:
       eslint-config-prettier: ^9.0.0
       eslint-plugin-svelte3: ^4.0.0
       groq: ^3.16.2
-      prettier: ^2.8.8
+      prettier: ^3.0.3
       prettier-plugin-svelte: ^2.10.1
       sass: ^1.63.6
       svelte: ^4.2.0
@@ -75,8 +75,8 @@ importers:
       eslint: 8.47.0
       eslint-config-prettier: 9.0.0_eslint@8.47.0
       eslint-plugin-svelte3: 4.0.0_eslint@8.47.0+svelte@4.2.0
-      prettier: 2.8.8
-      prettier-plugin-svelte: 2.10.1_6txzok57cptboxg2qp7a6vrhly
+      prettier: 3.0.3
+      prettier-plugin-svelte: 2.10.1_qj3jxqquorbmjtkdapjbd6ooru
       sass: 1.66.1
       svelte: 4.2.0
       svelte-check: 3.5.1_sass@1.66.1+svelte@4.2.0
@@ -5951,19 +5951,19 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier-plugin-svelte/2.10.1_6txzok57cptboxg2qp7a6vrhly:
+  /prettier-plugin-svelte/2.10.1_qj3jxqquorbmjtkdapjbd6ooru:
     resolution: {integrity: sha512-Wlq7Z5v2ueCubWo0TZzKc9XHcm7TDxqcuzRuGd0gcENfzfT4JZ9yDlCbEgxWgiPmLHkBjfOtpAWkcT28MCDpUQ==}
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0 || ^4.0.0-next.0
     dependencies:
-      prettier: 2.8.8
+      prettier: 3.0.3
       svelte: 4.2.0
     dev: true
 
-  /prettier/2.8.8:
-    resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
-    engines: {node: '>=10.13.0'}
+  /prettier/3.0.3:
+    resolution: {integrity: sha512-L/4pUDMxcNa8R/EthV08Zt42WBO4h1rarVtK0K+QJG0X187OLo7l699jWw0GKuwzkPQ//jMFA/8Xm6Fh3J/DAg==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
