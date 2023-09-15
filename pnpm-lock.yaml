@@ -53,7 +53,7 @@ importers:
       eslint: ^8.49.0
       eslint-config-prettier: ^9.0.0
       eslint-plugin-svelte3: ^4.0.0
-      groq: ^3.16.4
+      groq: ^3.16.7
       prettier: ^2.8.8
       prettier-plugin-svelte: ^2.10.1
       sass: ^1.63.6
@@ -65,7 +65,7 @@ importers:
     dependencies:
       '@sanity/client': 6.4.11
       '@sanity/image-url': 1.0.2
-      groq: 3.16.4
+      groq: 3.16.7
     devDependencies:
       '@radix-ui/colors': 0.1.9
       '@sveltejs/adapter-vercel': 3.0.3_@sveltejs+kit@1.25.0
@@ -4731,8 +4731,8 @@ packages:
     engines: {node: '>= 14'}
     dev: false
 
-  /groq/3.16.4:
-    resolution: {integrity: sha512-PexitOJcyUYLqGwim9VFyzhmCSLIMjN1e6Yfq8ZjO3U67VCIeTs0UI2XWHhjX4Lkx2O2gXeGZ2x1u/MRJhB3cQ==}
+  /groq/3.16.7:
+    resolution: {integrity: sha512-4Qlmwi9uQOyvc8YLFP5d+y8YssFnfK4imY3ZzP+U06LrV/KectnLsl/nDUQS2YfyTrQ7sGZQVNbhKw8DjT3phw==}
     engines: {node: '>=14.18.0'}
     dev: false
 
