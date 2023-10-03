@@ -43,7 +43,7 @@ importers:
 
   apps/web:
     specifiers:
-      '@radix-ui/colors': 0.1.9
+      '@radix-ui/colors': 3.0.0
       '@sanity/client': ^6.4.12
       '@sanity/image-url': ^1.0.2
       '@sveltejs/adapter-vercel': ^3.0.1
@@ -67,7 +67,7 @@ importers:
       '@sanity/image-url': 1.0.2
       groq: 3.16.7
     devDependencies:
-      '@radix-ui/colors': 0.1.9
+      '@radix-ui/colors': 3.0.0
       '@sveltejs/adapter-vercel': 3.0.3_@sveltejs+kit@1.25.1
       '@sveltejs/kit': 1.25.1_svelte@4.2.1+vite@4.4.9
       '@typescript-eslint/eslint-plugin': 6.7.3_ptdtxirkj6smbsapfa2xu7c5iq
@@ -2075,8 +2075,8 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@radix-ui/colors/0.1.9:
-    resolution: {integrity: sha512-Vxq944ErPJsdVepjEUhOLO9ApUVOocA63knc+V2TkJ09D/AVOjiMIgkca/7VoYgODcla0qbSIBjje0SMfZMbAw==}
+  /@radix-ui/colors/3.0.0:
+    resolution: {integrity: sha512-FUOsGBkHrYJwCSEtWRCIfQbZG7q1e6DgxCIOe1SUQzDe/7rXXeA47s8yCn6fuTNQAj1Zq4oTFi9Yjp3wzElcxg==}
     dev: true
 
   /@rexxars/react-json-inspector/8.0.1_react@18.2.0:
