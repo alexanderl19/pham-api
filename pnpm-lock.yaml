@@ -16,7 +16,7 @@ importers:
     specifiers:
       '@sanity/eslint-config-studio': ^3.0.1
       '@sanity/vision': ^3.18.1
-      '@types/react': ^18.2.31
+      '@types/react': ^18.2.32
       '@types/styled-components': ^5.1.26
       eslint: ^8.52.0
       prettier: ^2.8.8
@@ -31,11 +31,11 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
-      sanity: 3.18.1_63xfyzx6qwd4jfbizpv77rwwjm
+      sanity: 3.18.1_d7iww3d6256y3rbzfcntkqkcvm
       styled-components: 5.3.11_l266yphwesgudam3x3r2tm6dce
     devDependencies:
       '@sanity/eslint-config-studio': 3.0.1_i3vkbg2fztj7jno7sh3heeojya
-      '@types/react': 18.2.31
+      '@types/react': 18.2.32
       '@types/styled-components': 5.1.26
       eslint: 8.52.0
       prettier: 2.8.8
@@ -47,7 +47,7 @@ importers:
       '@sanity/client': ^6.7.0
       '@sanity/image-url': ^1.0.2
       '@sveltejs/adapter-vercel': ^3.0.1
-      '@sveltejs/kit': ^1.27.0
+      '@sveltejs/kit': ^1.27.1
       '@typescript-eslint/eslint-plugin': ^6.8.0
       '@typescript-eslint/parser': ^6.8.0
       eslint: ^8.52.0
@@ -56,7 +56,7 @@ importers:
       groq: ^3.18.1
       prettier: ^2.8.8
       prettier-plugin-svelte: ^2.10.1
-      sass: ^1.69.4
+      sass: ^1.69.5
       svelte: ^4.2.2
       svelte-check: ^3.5.2
       tslib: ^2.6.1
@@ -68,8 +68,8 @@ importers:
       groq: 3.18.1
     devDependencies:
       '@radix-ui/colors': 0.1.9
-      '@sveltejs/adapter-vercel': 3.0.3_@sveltejs+kit@1.27.0
-      '@sveltejs/kit': 1.27.0_svelte@4.2.2+vite@4.5.0
+      '@sveltejs/adapter-vercel': 3.0.3_@sveltejs+kit@1.27.1
+      '@sveltejs/kit': 1.27.1_svelte@4.2.2+vite@4.5.0
       '@typescript-eslint/eslint-plugin': 6.8.0_xmlw7ciba4dhvvbsnhnqmsoya4
       '@typescript-eslint/parser': 6.8.0_i3vkbg2fztj7jno7sh3heeojya
       eslint: 8.52.0
@@ -77,12 +77,12 @@ importers:
       eslint-plugin-svelte3: 4.0.0_eslint@8.52.0+svelte@4.2.2
       prettier: 2.8.8
       prettier-plugin-svelte: 2.10.1_dc5khx7dcsnva2ttncvo5okjs4
-      sass: 1.69.4
+      sass: 1.69.5
       svelte: 4.2.2
-      svelte-check: 3.5.2_sass@1.69.4+svelte@4.2.2
+      svelte-check: 3.5.2_sass@1.69.5+svelte@4.2.2
       tslib: 2.6.2
       typescript: 5.2.2
-      vite: 4.5.0_sass@1.69.4
+      vite: 4.5.0_sass@1.69.5
 
 packages:
 
@@ -2347,7 +2347,7 @@ packages:
     resolution: {integrity: sha512-EKtWxRiCsgCy1QDhBAbwHNt15wL0l+XYJc5VeQzdxb7RJnq0ZzfqV5uhtzqr1G5nDyhSHdgLO4UhysUn63SfuA==}
     dependencies:
       '@sanity/client': 6.7.0
-      '@types/react': 18.2.31
+      '@types/react': 18.2.32
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -2428,12 +2428,12 @@ packages:
       - react-is
     dev: false
 
-  /@sveltejs/adapter-vercel/3.0.3_@sveltejs+kit@1.27.0:
+  /@sveltejs/adapter-vercel/3.0.3_@sveltejs+kit@1.27.1:
     resolution: {integrity: sha512-0FQMjR6klW4627ewdclSr0lUe/DqiiyOaRTfgb5cXgNbVMsZMOA2fQ77TYQnJdvMfSEWe6y8uznV48XqKh9+vA==}
     peerDependencies:
       '@sveltejs/kit': ^1.5.0
     dependencies:
-      '@sveltejs/kit': 1.27.0_svelte@4.2.2+vite@4.5.0
+      '@sveltejs/kit': 1.27.1_svelte@4.2.2+vite@4.5.0
       '@vercel/nft': 0.23.1
       esbuild: 0.18.20
     transitivePeerDependencies:
@@ -2441,8 +2441,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.27.0_svelte@4.2.2+vite@4.5.0:
-    resolution: {integrity: sha512-a1wPIq2uO3RsTmV+KbA4venOgCJDbfHTXFe+g7eJR3N8l46DSuulUONJ1qnk2EnZWYC1Uj3Wbp3US0WFocIzXg==}
+  /@sveltejs/kit/1.27.1_svelte@4.2.2+vite@4.5.0:
+    resolution: {integrity: sha512-nYkOUJKbeI8fcwvt/cyhTdz6VG4kT6XVprNnzfIwif+IZ8RvxvJuPhPhYjz14ASIcMLpq8xC6D3X4xH3bvWi+Q==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     requiresBuild: true
@@ -2464,7 +2464,7 @@ packages:
       svelte: 4.2.2
       tiny-glob: 0.2.9
       undici: 5.26.3
-      vite: 4.5.0_sass@1.69.4
+      vite: 4.5.0_sass@1.69.5
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2480,7 +2480,7 @@ packages:
       '@sveltejs/vite-plugin-svelte': 2.4.5_svelte@4.2.2+vite@4.5.0
       debug: 4.3.4
       svelte: 4.2.2
-      vite: 4.5.0_sass@1.69.4
+      vite: 4.5.0_sass@1.69.5
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -2499,7 +2499,7 @@ packages:
       magic-string: 0.30.5
       svelte: 4.2.2
       svelte-hmr: 0.15.3_svelte@4.2.2
-      vite: 4.5.0_sass@1.69.4
+      vite: 4.5.0_sass@1.69.5
       vitefu: 0.2.4_vite@4.5.0
     transitivePeerDependencies:
       - supports-color
@@ -2555,7 +2555,7 @@ packages:
   /@types/hoist-non-react-statics/3.3.1:
     resolution: {integrity: sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==}
     dependencies:
-      '@types/react': 18.2.31
+      '@types/react': 18.2.32
       hoist-non-react-statics: 3.3.2
     dev: true
 
@@ -2593,17 +2593,17 @@ packages:
   /@types/react-copy-to-clipboard/5.0.4:
     resolution: {integrity: sha512-otTJsJpofYAeaIeOwV5xBUGpo6exXG2HX7X4nseToCB2VgPEBxGBHCm/FecZ676doNR7HCSTVtmohxfG2b3/yQ==}
     dependencies:
-      '@types/react': 18.2.31
+      '@types/react': 18.2.32
     dev: false
 
   /@types/react-is/18.2.1:
     resolution: {integrity: sha512-wyUkmaaSZEzFZivD8F2ftSyAfk6L+DfFliVj/mYdOXbVjRcS87fQJLTnhk6dRZPuJjI+9g6RZJO4PNCngUrmyw==}
     dependencies:
-      '@types/react': 18.2.31
+      '@types/react': 18.2.32
     dev: false
 
-  /@types/react/18.2.31:
-    resolution: {integrity: sha512-c2UnPv548q+5DFh03y8lEDeMfDwBn9G3dRwfkrxQMo/dOtRHUUO57k6pHvBIfH/VF4Nh+98mZ5aaSe+2echD5g==}
+  /@types/react/18.2.32:
+    resolution: {integrity: sha512-F0FVIZQ1x5Gxy/VYJb7XcWvCcHR28Sjwt1dXLspdIatfPq1MVACfnBDwKe6ANLxQ64riIJooXClpUR6oxTiepg==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -2628,7 +2628,7 @@ packages:
     resolution: {integrity: sha512-KuKJ9Z6xb93uJiIyxo/+ksS7yLjS1KzG6iv5i78dhVg/X3u5t1H7juRWqVmodIdz6wGVaIApo1u01kmFRdJHVw==}
     dependencies:
       '@types/hoist-non-react-statics': 3.3.1
-      '@types/react': 18.2.31
+      '@types/react': 18.2.32
       csstype: 3.1.2
     dev: true
 
@@ -6101,7 +6101,7 @@ packages:
     resolution: {integrity: sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==}
     dev: false
 
-  /react-focus-lock/2.9.5_uruz7wj5nvbintwsrh6fwqb4ri:
+  /react-focus-lock/2.9.5_yf73zzfvspdw5ra5skauvcm2zm:
     resolution: {integrity: sha512-h6vrdgUbsH2HeD5I7I3Cx1PPrmwGuKYICS+kB9m+32X/9xHRrAbxgvaBpG7BFBN9h3tO+C3qX1QAVESmi4CiIA==}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -6111,13 +6111,13 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.22.10
-      '@types/react': 18.2.31
+      '@types/react': 18.2.32
       focus-lock: 0.11.6
       prop-types: 15.8.1
       react: 18.2.0
       react-clientside-effect: 1.2.6_react@18.2.0
-      use-callback-ref: 1.3.0_uruz7wj5nvbintwsrh6fwqb4ri
-      use-sidecar: 1.1.2_uruz7wj5nvbintwsrh6fwqb4ri
+      use-callback-ref: 1.3.0_yf73zzfvspdw5ra5skauvcm2zm
+      use-sidecar: 1.1.2_yf73zzfvspdw5ra5skauvcm2zm
     dev: false
 
   /react-is/16.13.1:
@@ -6439,7 +6439,7 @@ packages:
       '@sanity/diff-match-patch': 3.1.1
     dev: false
 
-  /sanity/3.18.1_63xfyzx6qwd4jfbizpv77rwwjm:
+  /sanity/3.18.1_d7iww3d6256y3rbzfcntkqkcvm:
     resolution: {integrity: sha512-/e+1o2K9ufM4UXZxME6gXpa7hmCfEsnRIj41Z0HqABj1j6lk8aFzwfQ3dj/n2pU0ZCG0tjLdgJIhAPbSCdlJhQ==}
     engines: {node: '>=18'}
     hasBin: true
@@ -6529,7 +6529,7 @@ packages:
       react-copy-to-clipboard: 5.1.0_react@18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-fast-compare: 3.2.2
-      react-focus-lock: 2.9.5_uruz7wj5nvbintwsrh6fwqb4ri
+      react-focus-lock: 2.9.5_yf73zzfvspdw5ra5skauvcm2zm
       react-is: 18.2.0
       react-refractor: 2.1.7_react@18.2.0
       react-rx: 2.1.3_react@18.2.0+rxjs@7.8.1
@@ -6567,8 +6567,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /sass/1.69.4:
-    resolution: {integrity: sha512-+qEreVhqAy8o++aQfCJwp0sklr2xyEzkm9Pp/Igu9wNPoe7EZEQ8X/MBvvXggI2ql607cxKg/RKOwDj6pp2XDA==}
+  /sass/1.69.5:
+    resolution: {integrity: sha512-qg2+UCJibLr2LCVOt3OlPhr/dqVHWOa9XtZf2OjbLs/T4VPSJ00udtgJxH3neXZm+QqX8B+3cU7RaLqp1iVfcQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -6897,7 +6897,7 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  /svelte-check/3.5.2_sass@1.69.4+svelte@4.2.2:
+  /svelte-check/3.5.2_sass@1.69.5+svelte@4.2.2:
     resolution: {integrity: sha512-5a/YWbiH4c+AqAUP+0VneiV5bP8YOk9JL3jwvN+k2PEPLgpu85bjQc5eE67+eIZBBwUEJzmO3I92OqKcqbp3fw==}
     hasBin: true
     peerDependencies:
@@ -6910,7 +6910,7 @@ packages:
       picocolors: 1.0.0
       sade: 1.8.1
       svelte: 4.2.2
-      svelte-preprocess: 5.0.4_pglxhb2a3gycl6v4lodlqyihiy
+      svelte-preprocess: 5.0.4_6jgfkycs4mtujhppop6hzbwqj4
       typescript: 5.2.2
     transitivePeerDependencies:
       - '@babel/core'
@@ -6933,7 +6933,7 @@ packages:
       svelte: 4.2.2
     dev: true
 
-  /svelte-preprocess/5.0.4_pglxhb2a3gycl6v4lodlqyihiy:
+  /svelte-preprocess/5.0.4_6jgfkycs4mtujhppop6hzbwqj4:
     resolution: {integrity: sha512-ABia2QegosxOGsVlsSBJvoWeXy1wUKSfF7SWJdTjLAbx/Y3SrVevvvbFNQqrSJw89+lNSsM58SipmZJ5SRi5iw==}
     engines: {node: '>= 14.10.0'}
     requiresBuild: true
@@ -6974,7 +6974,7 @@ packages:
       '@types/pug': 2.0.6
       detect-indent: 6.1.0
       magic-string: 0.27.0
-      sass: 1.69.4
+      sass: 1.69.5
       sorcery: 0.11.0
       strip-indent: 3.0.0
       svelte: 4.2.2
@@ -7354,7 +7354,7 @@ packages:
       requires-port: 1.0.0
     dev: false
 
-  /use-callback-ref/1.3.0_uruz7wj5nvbintwsrh6fwqb4ri:
+  /use-callback-ref/1.3.0_yf73zzfvspdw5ra5skauvcm2zm:
     resolution: {integrity: sha512-3FT9PRuRdbB9HfXhEq35u4oZkvpJ5kuYbpqhCfmiZyReuRgpnhDlbr2ZEnnuS0RrJAPn6l23xjFg9kpDM+Ms7w==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -7364,7 +7364,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.31
+      '@types/react': 18.2.32
       react: 18.2.0
       tslib: 2.6.2
     dev: false
@@ -7385,7 +7385,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /use-sidecar/1.1.2_uruz7wj5nvbintwsrh6fwqb4ri:
+  /use-sidecar/1.1.2_yf73zzfvspdw5ra5skauvcm2zm:
     resolution: {integrity: sha512-epTbsLuzZ7lPClpz2TyryBfztm7m+28DlEv2ZCQ3MDr5ssiwyOwGH/e5F9CkfWjJ1t4clvI58yF822/GUkjjhw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -7395,7 +7395,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.31
+      '@types/react': 18.2.32
       detect-node-es: 1.1.0
       react: 18.2.0
       tslib: 2.6.2
@@ -7459,7 +7459,7 @@ packages:
       fsevents: 2.3.2
     dev: false
 
-  /vite/4.5.0_sass@1.69.4:
+  /vite/4.5.0_sass@1.69.5:
     resolution: {integrity: sha512-ulr8rNLA6rkyFAlVWw2q5YJ91v098AFQ2R0PRFwPzREXOUJQPtFUG0t+/ZikhaOCDqFoDhN6/v8Sq0o4araFAw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -7490,7 +7490,7 @@ packages:
       esbuild: 0.18.20
       postcss: 8.4.28
       rollup: 3.28.0
-      sass: 1.69.4
+      sass: 1.69.5
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -7503,7 +7503,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 4.5.0_sass@1.69.4
+      vite: 4.5.0_sass@1.69.5
     dev: true
 
   /w3c-keyname/2.2.8:
