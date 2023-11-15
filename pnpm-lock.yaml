@@ -44,7 +44,7 @@ importers:
   apps/web:
     specifiers:
       '@radix-ui/colors': 0.1.9
-      '@sanity/client': ^6.7.1
+      '@sanity/client': ^6.8.5
       '@sanity/image-url': ^1.0.2
       '@sveltejs/adapter-vercel': ^3.0.1
       '@sveltejs/kit': ^1.27.4
@@ -63,7 +63,7 @@ importers:
       typescript: ^5.2.2
       vite: ^4.5.0
     dependencies:
-      '@sanity/client': 6.7.1
+      '@sanity/client': 6.8.5
       '@sanity/image-url': 1.0.2
       groq: 3.19.2
     devDependencies:
@@ -2189,6 +2189,18 @@ packages:
       - supports-color
     dev: false
 
+  /@sanity/client/6.8.5:
+    resolution: {integrity: sha512-RVToi17kmTzGh3SBj6oeEDcp6PzM4LrvnOlSf580rjgejT806jvVdiOKLaR0yKul264vg1rEJhZT1A594BxmLA==}
+    engines: {node: '>=14.18'}
+    dependencies:
+      '@sanity/eventsource': 5.0.0
+      '@vercel/stega': 0.1.0
+      get-it: 8.4.4
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   /@sanity/color/2.2.5:
     resolution: {integrity: sha512-tTi22KoKuER3sldXYl4c1Dq2zU7tMLDkljFiaUKVkBbu4PBvRGCFw75kXZnD2b4Bsp6vin+7sI+AKdCKRhfRuw==}
     dev: false
@@ -2358,7 +2370,7 @@ packages:
   /@sanity/types/3.19.2:
     resolution: {integrity: sha512-kTT/+G8yLYZAnauxANrQxxW9QRYt33Mv6xDu4IHcvmFDOXzZLtW6tazOuSwgkMzBSpl8PCkU4fKSGU2myRf7SA==}
     dependencies:
-      '@sanity/client': 6.7.1
+      '@sanity/client': 6.8.5
       '@types/react': 18.2.37
     transitivePeerDependencies:
       - supports-color
@@ -3031,6 +3043,10 @@ packages:
       - encoding
       - supports-color
     dev: true
+
+  /@vercel/stega/0.1.0:
+    resolution: {integrity: sha512-5b0PkOJsFBX5alChuIO3qpkt5vIZBevzLPhUQ1UP8UzVjL3F1VllnZxp/thfD8R5ol7D7WHkgZHIjdUBX4tDpQ==}
+    dev: false
 
   /@vitejs/plugin-react/4.0.4_vite@4.5.0:
     resolution: {integrity: sha512-7wU921ABnNYkETiMaZy7XqpueMnpu5VxvVps13MjmCo+utBdD79sZzrApHawHtVX66cCJQQTXFcjH0y9dSUK8g==}
