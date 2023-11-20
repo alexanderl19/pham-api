@@ -46,7 +46,7 @@ importers:
       '@radix-ui/colors': 0.1.9
       '@sanity/client': ^6.8.6
       '@sanity/image-url': ^1.0.2
-      '@sveltejs/adapter-vercel': ^3.0.1
+      '@sveltejs/adapter-vercel': ^3.1.0
       '@sveltejs/kit': ^1.27.6
       '@typescript-eslint/eslint-plugin': ^6.11.0
       '@typescript-eslint/parser': ^6.11.0
@@ -68,7 +68,7 @@ importers:
       groq: 3.19.2
     devDependencies:
       '@radix-ui/colors': 0.1.9
-      '@sveltejs/adapter-vercel': 3.0.3_@sveltejs+kit@1.27.6
+      '@sveltejs/adapter-vercel': 3.1.0_@sveltejs+kit@1.27.6
       '@sveltejs/kit': 1.27.6_svelte@4.2.4+vite@5.0.0
       '@typescript-eslint/eslint-plugin': 6.11.0_zeffnupuqdtdisxnfydvrpm6ja
       '@typescript-eslint/parser': 6.11.0_5iy6f2d3forlnf27wdbuobyvmm
@@ -2724,13 +2724,13 @@ packages:
       - react-is
     dev: false
 
-  /@sveltejs/adapter-vercel/3.0.3_@sveltejs+kit@1.27.6:
-    resolution: {integrity: sha512-0FQMjR6klW4627ewdclSr0lUe/DqiiyOaRTfgb5cXgNbVMsZMOA2fQ77TYQnJdvMfSEWe6y8uznV48XqKh9+vA==}
+  /@sveltejs/adapter-vercel/3.1.0_@sveltejs+kit@1.27.6:
+    resolution: {integrity: sha512-AkG7GuqPj/70zxfuOV7QbxXVuYFPUlyFEPlGUSXynDbIBTYu1Er+c676M2egnAyw0flB+kpj6nlxJIElRLKAaA==}
     peerDependencies:
       '@sveltejs/kit': ^1.5.0
     dependencies:
       '@sveltejs/kit': 1.27.6_svelte@4.2.4+vite@5.0.0
-      '@vercel/nft': 0.23.1
+      '@vercel/nft': 0.24.3
       esbuild: 0.18.20
     transitivePeerDependencies:
       - encoding
@@ -3295,9 +3295,9 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@vercel/nft/0.23.1:
-    resolution: {integrity: sha512-NE0xSmGWVhgHF1OIoir71XAd0W0C1UE3nzFyhpFiMr3rVhetww7NvM1kc41trBsPG37Bh+dE5FYCTMzM/gBu0w==}
-    engines: {node: '>=14'}
+  /@vercel/nft/0.24.3:
+    resolution: {integrity: sha512-IyBdIxmFAeGZnEfMgt4QrGK7XX4lWazlQj34HEi9dw04/WeDBJ7r1yaOIO5tTf9pbfvwUFodj9b0H+NDGGoOMg==}
+    engines: {node: '>=16'}
     hasBin: true
     dependencies:
       '@mapbox/node-pre-gyp': 1.0.11
