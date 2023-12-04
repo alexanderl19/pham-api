@@ -16,7 +16,7 @@ importers:
     specifiers:
       '@sanity/eslint-config-studio': ^3.0.1
       '@sanity/vision': ^3.20.2
-      '@types/react': ^18.2.39
+      '@types/react': ^18.2.41
       '@types/styled-components': ^5.1.26
       eslint: ^8.54.0
       prettier: ^2.8.8
@@ -31,11 +31,11 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-is: 18.2.0
-      sanity: 3.20.2_2gkrqe37grsrqlmnxn5pawvc7e
+      sanity: 3.20.2_qy2f6duw3sxr2u5lumxyh2qswi
       styled-components: 5.3.11_l266yphwesgudam3x3r2tm6dce
     devDependencies:
       '@sanity/eslint-config-studio': 3.0.1_t4y562kuozn2x6kqiutrjmhi5a
-      '@types/react': 18.2.39
+      '@types/react': 18.2.41
       '@types/styled-components': 5.1.26
       eslint: 8.54.0
       prettier: 2.8.8
@@ -2460,7 +2460,7 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       rxjs: 7.8.1
-      sanity: 3.20.2_2gkrqe37grsrqlmnxn5pawvc7e
+      sanity: 3.20.2_qy2f6duw3sxr2u5lumxyh2qswi
       styled-components: 5.3.11_l266yphwesgudam3x3r2tm6dce
       suspend-react: 0.1.3_react@18.2.0
     transitivePeerDependencies:
@@ -2483,7 +2483,7 @@ packages:
       '@sanity/client': 6.8.6
       '@sanity/icons': 2.7.0_react@18.2.0
       '@sanity/uuid': 3.0.2
-      sanity: 3.20.2_2gkrqe37grsrqlmnxn5pawvc7e
+      sanity: 3.20.2_qy2f6duw3sxr2u5lumxyh2qswi
     dev: false
 
   /@sanity/schema/3.20.2:
@@ -2504,7 +2504,7 @@ packages:
     resolution: {integrity: sha512-45oITSnb67obcL/RmHhntcnUVIgFGJsXH6nnP3MR3hj/IikAd4dMJRgYQObt0GJWkgZ8ognd9nucXvWYAOqB7w==}
     dependencies:
       '@sanity/client': 6.9.1
-      '@types/react': 18.2.39
+      '@types/react': 18.2.41
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -2712,7 +2712,7 @@ packages:
   /@types/hoist-non-react-statics/3.3.1:
     resolution: {integrity: sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==}
     dependencies:
-      '@types/react': 18.2.39
+      '@types/react': 18.2.41
       hoist-non-react-statics: 3.3.2
     dev: true
 
@@ -2756,17 +2756,17 @@ packages:
   /@types/react-copy-to-clipboard/5.0.4:
     resolution: {integrity: sha512-otTJsJpofYAeaIeOwV5xBUGpo6exXG2HX7X4nseToCB2VgPEBxGBHCm/FecZ676doNR7HCSTVtmohxfG2b3/yQ==}
     dependencies:
-      '@types/react': 18.2.39
+      '@types/react': 18.2.41
     dev: false
 
   /@types/react-is/18.2.1:
     resolution: {integrity: sha512-wyUkmaaSZEzFZivD8F2ftSyAfk6L+DfFliVj/mYdOXbVjRcS87fQJLTnhk6dRZPuJjI+9g6RZJO4PNCngUrmyw==}
     dependencies:
-      '@types/react': 18.2.39
+      '@types/react': 18.2.41
     dev: false
 
-  /@types/react/18.2.39:
-    resolution: {integrity: sha512-Oiw+ppED6IremMInLV4HXGbfbG6GyziY3kqAwJYOR0PNbkYDmLWQA3a95EhdSmamsvbkJN96ZNN+YD+fGjzSBA==}
+  /@types/react/18.2.41:
+    resolution: {integrity: sha512-CwOGr/PiLiNBxEBqpJ7fO3kocP/2SSuC9fpH5K7tusrg4xPSRT/193rzolYwQnTN02We/ATXKnb6GqA5w4fRxw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -2791,7 +2791,7 @@ packages:
     resolution: {integrity: sha512-KuKJ9Z6xb93uJiIyxo/+ksS7yLjS1KzG6iv5i78dhVg/X3u5t1H7juRWqVmodIdz6wGVaIApo1u01kmFRdJHVw==}
     dependencies:
       '@types/hoist-non-react-statics': 3.3.1
-      '@types/react': 18.2.39
+      '@types/react': 18.2.41
       csstype: 3.1.2
     dev: true
 
@@ -6283,7 +6283,7 @@ packages:
     resolution: {integrity: sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==}
     dev: false
 
-  /react-focus-lock/2.9.5_d6xr7427ryrc3fdigbbbatktku:
+  /react-focus-lock/2.9.5_aubhhyadwwrly2ms2jqnyk2qcu:
     resolution: {integrity: sha512-h6vrdgUbsH2HeD5I7I3Cx1PPrmwGuKYICS+kB9m+32X/9xHRrAbxgvaBpG7BFBN9h3tO+C3qX1QAVESmi4CiIA==}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -6293,13 +6293,13 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.22.10
-      '@types/react': 18.2.39
+      '@types/react': 18.2.41
       focus-lock: 0.11.6
       prop-types: 15.8.1
       react: 18.2.0
       react-clientside-effect: 1.2.6_react@18.2.0
-      use-callback-ref: 1.3.0_d6xr7427ryrc3fdigbbbatktku
-      use-sidecar: 1.1.2_d6xr7427ryrc3fdigbbbatktku
+      use-callback-ref: 1.3.0_aubhhyadwwrly2ms2jqnyk2qcu
+      use-sidecar: 1.1.2_aubhhyadwwrly2ms2jqnyk2qcu
     dev: false
 
   /react-is/16.13.1:
@@ -6642,7 +6642,7 @@ packages:
       '@sanity/diff-match-patch': 3.1.1
     dev: false
 
-  /sanity/3.20.2_2gkrqe37grsrqlmnxn5pawvc7e:
+  /sanity/3.20.2_qy2f6duw3sxr2u5lumxyh2qswi:
     resolution: {integrity: sha512-wfvRc6Or1tXJdUIk9AqvO/zyWzzH2XXFCeMC8aFDXEcR98cbV+cfXikG82Jt31JvkUmFHVsAvALmAbb0hbWDuQ==}
     engines: {node: '>=18'}
     hasBin: true
@@ -6734,7 +6734,7 @@ packages:
       react-copy-to-clipboard: 5.1.0_react@18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-fast-compare: 3.2.2
-      react-focus-lock: 2.9.5_d6xr7427ryrc3fdigbbbatktku
+      react-focus-lock: 2.9.5_aubhhyadwwrly2ms2jqnyk2qcu
       react-is: 18.2.0
       react-refractor: 2.1.7_react@18.2.0
       react-rx: 2.1.3_react@18.2.0+rxjs@7.8.1
@@ -7561,7 +7561,7 @@ packages:
       requires-port: 1.0.0
     dev: false
 
-  /use-callback-ref/1.3.0_d6xr7427ryrc3fdigbbbatktku:
+  /use-callback-ref/1.3.0_aubhhyadwwrly2ms2jqnyk2qcu:
     resolution: {integrity: sha512-3FT9PRuRdbB9HfXhEq35u4oZkvpJ5kuYbpqhCfmiZyReuRgpnhDlbr2ZEnnuS0RrJAPn6l23xjFg9kpDM+Ms7w==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -7571,7 +7571,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.39
+      '@types/react': 18.2.41
       react: 18.2.0
       tslib: 2.6.2
     dev: false
@@ -7592,7 +7592,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /use-sidecar/1.1.2_d6xr7427ryrc3fdigbbbatktku:
+  /use-sidecar/1.1.2_aubhhyadwwrly2ms2jqnyk2qcu:
     resolution: {integrity: sha512-epTbsLuzZ7lPClpz2TyryBfztm7m+28DlEv2ZCQ3MDr5ssiwyOwGH/e5F9CkfWjJ1t4clvI58yF822/GUkjjhw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -7602,7 +7602,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.39
+      '@types/react': 18.2.41
       detect-node-es: 1.1.0
       react: 18.2.0
       tslib: 2.6.2
