@@ -47,7 +47,7 @@ importers:
       '@sanity/client': ^6.9.1
       '@sanity/image-url': ^1.0.2
       '@sveltejs/adapter-vercel': ^3.1.0
-      '@sveltejs/kit': ^1.27.6
+      '@sveltejs/kit': ^1.27.7
       '@typescript-eslint/eslint-plugin': ^6.13.2
       '@typescript-eslint/parser': ^6.13.2
       eslint: ^8.55.0
@@ -68,8 +68,8 @@ importers:
       groq: 3.21.0
     devDependencies:
       '@radix-ui/colors': 0.1.9
-      '@sveltejs/adapter-vercel': 3.1.0_@sveltejs+kit@1.27.6
-      '@sveltejs/kit': 1.27.6_svelte@4.2.8+vite@5.0.5
+      '@sveltejs/adapter-vercel': 3.1.0_@sveltejs+kit@1.27.7
+      '@sveltejs/kit': 1.27.7_svelte@4.2.8+vite@5.0.5
       '@typescript-eslint/eslint-plugin': 6.13.2_7tttfxh7kxoebuxieigkbisq5a
       '@typescript-eslint/parser': 6.13.2_gvxfkgnhba3ramrjrewhsl7ftu
       eslint: 8.55.0
@@ -2850,12 +2850,12 @@ packages:
       - react-is
     dev: false
 
-  /@sveltejs/adapter-vercel/3.1.0_@sveltejs+kit@1.27.6:
+  /@sveltejs/adapter-vercel/3.1.0_@sveltejs+kit@1.27.7:
     resolution: {integrity: sha512-AkG7GuqPj/70zxfuOV7QbxXVuYFPUlyFEPlGUSXynDbIBTYu1Er+c676M2egnAyw0flB+kpj6nlxJIElRLKAaA==}
     peerDependencies:
       '@sveltejs/kit': ^1.5.0
     dependencies:
-      '@sveltejs/kit': 1.27.6_svelte@4.2.8+vite@5.0.5
+      '@sveltejs/kit': 1.27.7_svelte@4.2.8+vite@5.0.5
       '@vercel/nft': 0.24.3
       esbuild: 0.18.20
     transitivePeerDependencies:
@@ -2863,8 +2863,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.27.6_svelte@4.2.8+vite@5.0.5:
-    resolution: {integrity: sha512-GsjTkMbKzXdbeRg0tk8S7HNShQ4879ftRr0ZHaZfjbig1xQwG57Bvcm9U9/mpLJtCapLbLWUnygKrgcLISLC8A==}
+  /@sveltejs/kit/1.27.7_svelte@4.2.8+vite@5.0.5:
+    resolution: {integrity: sha512-AzXYDoYt42clCBwLF9GTHsXyg2DFR31Ncyt8yxu8Aw4tgB433V+w+hcr1RTfAN9zKW2J2PY9FMQ8FoX/4Vw8CA==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     requiresBuild: true
