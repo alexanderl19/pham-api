@@ -16,7 +16,7 @@ importers:
     specifiers:
       '@sanity/eslint-config-studio': 3.0.1
       '@sanity/vision': 3.21.3
-      '@types/react': ^18.2.45
+      '@types/react': 18.2.45
       '@types/styled-components': 5.1.26
       eslint: 8.55.0
       prettier: ^2.8.8
