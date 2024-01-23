@@ -61,8 +61,8 @@ importers:
   apps/web:
     dependencies:
       '@sanity/client':
-        specifier: 6.11.1
-        version: 6.11.1
+        specifier: 6.11.2
+        version: 6.11.2
       '@sanity/image-url':
         specifier: 1.0.2
         version: 1.0.2
@@ -2284,6 +2284,18 @@ packages:
       - supports-color
     dev: false
 
+  /@sanity/client@6.11.2:
+    resolution: {integrity: sha512-loJF1MxnRgFL/vq7EPg/zhttzAy8Ka71Ip0zge1ksmzUt3PeEN27ZCnkYj8O7Mt1x9qALbdj+owXWqcNEF/lIA==}
+    engines: {node: '>=14.18'}
+    dependencies:
+      '@sanity/eventsource': 5.0.0
+      '@vercel/stega': 0.1.0
+      get-it: 8.4.5
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   /@sanity/color@3.0.0:
     resolution: {integrity: sha512-JLIsloyyn0lhta/JivmYlxlcN7U3dpBNqtH7uAzM9/kPirFxWJ8LAVuF5vxK5JHwTNbgpVy6AmfIss/av7N96w==}
     engines: {node: '>=18.0.0'}
@@ -2497,7 +2509,7 @@ packages:
   /@sanity/types@3.25.0:
     resolution: {integrity: sha512-82UssrPv+Teb0ozPS+hsdbvDVsmVH+d4zBlIYuR+TKh2WLvMD7jx510dBDq9PdE0Fot6WQEtpJ8YBxwtM6qD4A==}
     dependencies:
-      '@sanity/client': 6.11.1
+      '@sanity/client': 6.11.2
       '@types/react': 18.2.48
     transitivePeerDependencies:
       - supports-color
@@ -4559,6 +4571,18 @@ packages:
       debug: 4.3.4(supports-color@5.5.0)
     dev: false
 
+  /follow-redirects@1.15.5(debug@4.3.4):
+    resolution: {integrity: sha512-vSFWUON1B+yAw1VN4xMfxgn5fTUiaOzAJCKBwIIgT/+7CuGy9+r+5gITvP62j3RmaD5Ph65UaERdOSRGUzZtgw==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dependencies:
+      debug: 4.3.4(supports-color@5.5.0)
+    dev: false
+
   /for-each@0.3.3:
     resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
     dependencies:
@@ -4685,6 +4709,24 @@ packages:
       debug: 4.3.4(supports-color@5.5.0)
       decompress-response: 7.0.0
       follow-redirects: 1.15.2(debug@4.3.4)
+      into-stream: 6.0.0
+      is-plain-object: 5.0.0
+      is-retry-allowed: 2.2.0
+      is-stream: 2.0.1
+      parse-headers: 2.0.5
+      progress-stream: 2.0.0
+      tunnel-agent: 0.6.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /get-it@8.4.5:
+    resolution: {integrity: sha512-hOoAwSfJXy86QJPEsZFDtBsFBagyTAlYwLJkKZJN5q7ppXRQjq0Wies4d14icDSpVs7QVm4Wtt0XQzjxXlUdgg==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      debug: 4.3.4(supports-color@5.5.0)
+      decompress-response: 7.0.0
+      follow-redirects: 1.15.5(debug@4.3.4)
       into-stream: 6.0.0
       is-plain-object: 5.0.0
       is-retry-allowed: 2.2.0
