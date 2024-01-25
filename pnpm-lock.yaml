@@ -61,8 +61,8 @@ importers:
   apps/web:
     dependencies:
       '@sanity/client':
-        specifier: 6.11.2
-        version: 6.11.2
+        specifier: 6.11.3
+        version: 6.11.3
       '@sanity/image-url':
         specifier: 1.0.2
         version: 1.0.2
@@ -2284,6 +2284,18 @@ packages:
       - supports-color
     dev: false
 
+  /@sanity/client@6.11.3:
+    resolution: {integrity: sha512-areQ7bTcwxbswQntlOk3A+QMQa+FL4aOQ2npjp+tZjUmu3DZkLzInbOAqSpwQpd1hMbJYXmLp1m7XCmbEajApg==}
+    engines: {node: '>=14.18'}
+    dependencies:
+      '@sanity/eventsource': 5.0.0
+      '@vercel/stega': 0.1.0
+      get-it: 8.4.6
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   /@sanity/color@3.0.0:
     resolution: {integrity: sha512-JLIsloyyn0lhta/JivmYlxlcN7U3dpBNqtH7uAzM9/kPirFxWJ8LAVuF5vxK5JHwTNbgpVy6AmfIss/av7N96w==}
     engines: {node: '>=18.0.0'}
@@ -2498,7 +2510,7 @@ packages:
   /@sanity/types@3.26.0:
     resolution: {integrity: sha512-JUaKoGotceJVWf2Qp9MogT79LeuhYyRHc+D8YWF3XPwEvtJlj6iqUlRk+ln9PcP5dV0SBimPpW9juU9CqWKu9g==}
     dependencies:
-      '@sanity/client': 6.11.2
+      '@sanity/client': 6.11.3
       '@types/react': 18.2.48
     transitivePeerDependencies:
       - supports-color
@@ -3780,6 +3792,7 @@ packages:
       loose-envify: 1.4.0
       object-assign: 4.1.1
     dev: false
+    bundledDependencies: false
 
   /crelt@1.0.6:
     resolution: {integrity: sha512-VQ2MBenTq1fWZUH9DJNGti7kKv6EeAuYr3cLwxUWhIu1baTaXh4Ib5W2CqHVqib4/MqbYGJqiL3Zb8GJZr3l4g==}
@@ -4680,6 +4693,24 @@ packages:
 
   /get-it@8.4.5:
     resolution: {integrity: sha512-hOoAwSfJXy86QJPEsZFDtBsFBagyTAlYwLJkKZJN5q7ppXRQjq0Wies4d14icDSpVs7QVm4Wtt0XQzjxXlUdgg==}
+    engines: {node: '>=14.0.0'}
+    dependencies:
+      debug: 4.3.4(supports-color@5.5.0)
+      decompress-response: 7.0.0
+      follow-redirects: 1.15.5(debug@4.3.4)
+      into-stream: 6.0.0
+      is-plain-object: 5.0.0
+      is-retry-allowed: 2.2.0
+      is-stream: 2.0.1
+      parse-headers: 2.0.5
+      progress-stream: 2.0.0
+      tunnel-agent: 0.6.0
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
+  /get-it@8.4.6:
+    resolution: {integrity: sha512-omefjdbyRb2rRt0tnrZlbeWx9oZJm66o88K8JlYn13xELn+0+d6mJZOQHrJAdC3vxeJ4t/NHa4wh7Wlh+nvEJA==}
     engines: {node: '>=14.0.0'}
     dependencies:
       debug: 4.3.4(supports-color@5.5.0)
