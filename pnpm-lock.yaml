@@ -61,8 +61,8 @@ importers:
   apps/web:
     dependencies:
       '@sanity/client':
-        specifier: 6.12.2
-        version: 6.12.2
+        specifier: 6.12.3
+        version: 6.12.3
       '@sanity/image-url':
         specifier: 1.0.2
         version: 1.0.2
@@ -2284,8 +2284,8 @@ packages:
       - supports-color
     dev: false
 
-  /@sanity/client@6.12.2:
-    resolution: {integrity: sha512-xilnmahweBvu6pDCahqX3h3c7B/aI2IbEFi1cQP/Mc1IkhRFPrghN4ton68R+OkCWbPIysezFNLr/ZlRTPXrMQ==}
+  /@sanity/client@6.12.3:
+    resolution: {integrity: sha512-oA9LkDZOpVN8nciGb6/h+1r4ElH0IUTC3bHyBdVsxB5namdWBJKZzuVjJiWQlsK8up7U1xsATB4hyimSgUCSjA==}
     engines: {node: '>=14.18'}
     dependencies:
       '@sanity/eventsource': 5.0.0
@@ -2510,7 +2510,7 @@ packages:
   /@sanity/types@3.26.1:
     resolution: {integrity: sha512-aNeaXS82JAJyZKc33QiL+z0vIHCOL6VpEVf5SixhHaCkoGCzt+gRupoi8dWP7Fk4JbvRQoHuoXnNXGLXVN6eOg==}
     dependencies:
-      '@sanity/client': 6.12.2
+      '@sanity/client': 6.12.3
       '@types/react': 18.2.48
     transitivePeerDependencies:
       - supports-color
