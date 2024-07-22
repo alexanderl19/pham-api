@@ -71,8 +71,8 @@ importers:
         version: 3.27.1
     devDependencies:
       '@radix-ui/colors':
-        specifier: 0.1.9
-        version: 0.1.9
+        specifier: 3.0.0
+        version: 3.0.0
       '@sveltejs/adapter-vercel':
         specifier: 3.1.0
         version: 3.1.0(@sveltejs/kit@1.30.4)
@@ -2337,8 +2337,8 @@ packages:
     engines: {node: ^14.13.1 || >=16.0.0 || >=18.0.0}
     dev: false
 
-  /@radix-ui/colors@0.1.9:
-    resolution: {integrity: sha512-Vxq944ErPJsdVepjEUhOLO9ApUVOocA63knc+V2TkJ09D/AVOjiMIgkca/7VoYgODcla0qbSIBjje0SMfZMbAw==}
+  /@radix-ui/colors@3.0.0:
+    resolution: {integrity: sha512-FUOsGBkHrYJwCSEtWRCIfQbZG7q1e6DgxCIOe1SUQzDe/7rXXeA47s8yCn6fuTNQAj1Zq4oTFi9Yjp3wzElcxg==}
     dev: true
 
   /@rexxars/react-json-inspector@8.0.1(react@18.2.0):
